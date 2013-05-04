@@ -21,5 +21,5 @@ include_once 'App.php';
 App::init(APPPATH . '/config/app.ini');
 
 // Initiate engine and run!
-App::run();
-//App::runMVC();
+//App::run();
+App::runMVC();
